@@ -28,10 +28,10 @@ const PageLoader: React.FC = () => {
         {/* Identity */}
         <div className="flex flex-col items-center gap-3">
           <h1 className="font-funnel text-[clamp(3rem,7vw,5.5rem)] font-extrabold tracking-tight">
-            John Doe{" "}
+            Zakariya allaoui{" "}
           </h1>
           <p className="font-jost text-[11px] tracking-[0.45em] uppercase text-muted-foreground">
-            Creative Developer
+            Full-stack Web Developer
           </p>
         </div>
 

@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
               variants={fadeUp}
               className="sm:max-w-sm lg:max-w-xl font-jost text-lg ml:text-xl sm:text-lg md:text-xl tracking-widest text-neutral-600 mb-4 md:mb-6 uppercase"
             >
-              Creative Developer · UI/UX Designer · Full Stack Specialist
+             Full Stack Web Developer · UI/UX Designer 
             </motion.p>
 
             <motion.p
@@ -79,16 +79,16 @@ const Hero: React.FC = () => {
             <motion.div
               variants={fadeUp}
               className="
-    mt-6
-    mb-5
-    sm:mb-6
-    gap-10
-    flex
-    justify-center
-    sm:justify-start
-    text-neutral-800
-    text-center
-  "
+                mt-6
+                mb-5
+                sm:mb-6
+                gap-10
+                flex
+                justify-center
+                sm:justify-start
+                text-neutral-800
+                text-center
+              "
             >
               <div>
                 <p className="text-3xl sm:text-5xl font-funnel font-bold leading-none">

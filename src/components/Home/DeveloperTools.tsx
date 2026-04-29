@@ -14,17 +14,17 @@ interface NpmPackage {
 
 const npmPackages: NpmPackage[] = [
   {
-    name: "awesome-library-package",
+    name: "PromptForge — AI Prompt Optimizer",
     description:
-      "A versatile utility library designed to streamline modern web development workflows.",
-    link: "https://www.npmjs.com/package/awesome-library-package",
-  },
-  {
-    name: "react-tool-kit-generic",
-    description:
-      "Lightweight and efficient component toolkit for building production-grade React apps.",
-    link: "https://www.npmjs.com/package/react-tool-kit-generic",
-  },
+      "AI Prompt Optimizer for crafting high-performance prompts for large language models.",
+    link: "https://github.com/zakari-ya/PromptForge",
+  }
+  // {
+  //   name: "react-tool-kit-generic",
+  //   description:
+  //     "Lightweight and efficient component toolkit for building production-grade React apps.",
+  //   link: "https://www.npmjs.com/package/react-tool-kit-generic",
+  // },
 ];
 
 /* ===================== Animations ===================== */
@@ -68,7 +68,7 @@ const DeveloperTools: React.FC = () => {
           </h2>
 
           <p className="mt-8 max-w-2xl text-lg sm:text-xl text-muted-foreground leading-relaxed">
-            Open-source utilities and CLI tools focused on developer experience,
+            Open-source tools focused on developer experience,
             productivity, and real-world usage.
           </p>
         </motion.div>
@@ -88,12 +88,12 @@ const DeveloperTools: React.FC = () => {
               {/* Left */}
               <motion.div variants={fadeUp}>
                 <h3 className="text-[clamp(1.6rem,4vw,2.2rem)] font-semibold tracking-tight">
-                  Published NPM Packages
+                  Open Source Projects
                 </h3>
 
                 <p className="mt-4 leading-relaxed max-w-md text-background/90">
-                  Small, focused tools built with Node.js and TypeScript.
-                  Designed to be practical, reusable, and production-ready.
+                  Production-ready browser extensions and developer tools built with JavaScript, CSS, 
+                  and Web APIs. Designed to be practical, universal, and immediately useful.
                 </p>
               </motion.div>
 
@@ -142,9 +142,9 @@ const DeveloperTools: React.FC = () => {
                         hover:scale-[1.03]
                         self-start
                       "
-                      aria-label="View on NPM"
+                      aria-label="View on GitHub"
                     >
-                      View on NPM
+                      View on GitHub
                       <ExternalLink size={14} />
                     </a>
                   </motion.div>

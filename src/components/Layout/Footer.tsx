@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             leading-relaxed
           "
         >
-          I’m John Doe — a creative developer and digital architect. I build
+          I’m Zakariya Allaoui — a Full-Stack Web developer. I build
           high-performance digital products and experiences that help brands
           grow and succeed.
         </motion.p>
@@ -84,10 +84,10 @@ const Footer: React.FC = () => {
               "
             >
               <Mail className="w-4 h-4" />
-              hello@example.com
+              zakariyaallaoui01@gmail.com
             </a>
             <a
-              href="https://wa.me/1234567890?text=Hello%20there"
+              href="https://wa.me/+212653034506?text=Hello%20there"
               className="
                 flex items-center gap-2 md:gap-3
                 text-neutral-700
@@ -108,7 +108,7 @@ const Footer: React.FC = () => {
 
             <div className="flex flex-col gap-3 text-neutral-700">
               <a
-                href="https://github.com/username"
+                href="https://github.com/zakari-ya"
                 target="_blank"
                 className="flex items-center gap-3 hover:text-black transition-colors"
                 rel="noreferrer"
@@ -117,7 +117,7 @@ const Footer: React.FC = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/username"
+                href="https://www.linkedin.com/in/zakariya-allaoui/"
                 target="_blank"
                 className="flex items-center gap-3 hover:text-black transition-colors"
                 rel="noreferrer"
@@ -125,17 +125,17 @@ const Footer: React.FC = () => {
                 <Linkedin className="w-4 h-4" /> LinkedIn
               </a>
 
-              <a
+              {/* <a
                 href="https://www.youtube.com/@username"
                 target="_blank"
                 className="flex items-center gap-3 hover:text-black transition-colors"
                 rel="noreferrer"
               >
                 <Youtube className="w-4 h-4" /> YouTube
-              </a>
+              </a> */}
 
               <a
-                href="https://www.instagram.com/username"
+                href="https://www.instagram.com/zak___ariya/?__pwa=1"
                 target="_blank"
                 className="flex items-center gap-3 hover:text-black transition-colors"
                 rel="noreferrer"
@@ -164,12 +164,12 @@ const Footer: React.FC = () => {
               >
                 Services
               </a>
-              <a
+              {/* <a
                 href="#techstack"
                 className="hover:text-black transition-colors"
               >
                 Toolbox
-              </a>
+              </a> */}
               <a href="#about" className="hover:text-black transition-colors">
                 My Journey
               </a>
@@ -194,8 +194,8 @@ const Footer: React.FC = () => {
             text-neutral-600 font-funnel
           "
         >
-          <p>© {new Date().getFullYear()} John Doe</p>
-          <p>Built with clarity, intent & clean code.</p>
+          <p>© {new Date().getFullYear()} ｚａｋａｒｉｙａ　ａｌｌａｏｕｉ</p>
+          {/* <p>Built with clarity, intent & clean code.</p> */}
         </motion.div>
       </motion.div>
     </footer>

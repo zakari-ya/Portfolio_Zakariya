@@ -7,7 +7,7 @@ import Services from "../components/Home/Services";
 import Contact from "../components/Home/Contact";
 import { projectItem } from "../utils/constants";
 // import { href } from "react-router-dom";
-// import DeveloperTools from "../components/Home/DeveloperTools";
+import DeveloperTools from "../components/Home/DeveloperTools";
 
 const projects: projectItem[] = [
   {
@@ -88,7 +88,7 @@ const Home: React.FC = () => {
     <div>
       <Hero />
       <Projects projects={projects} />
-      {/* <DeveloperTools /> */}
+      <DeveloperTools /> 
       <Skills />
       <About />
       <Services />

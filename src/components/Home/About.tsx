@@ -88,7 +88,7 @@ const About = () => {
           variants={fadeUp}
           className="mt-6 md:mt-8 max-w-3xl text-base sm:text-xl leading-[1.9] text-neutral-700"
         >
-          I'm a full-stack developer and digital craftsman who bridges the gap between powerful 
+          I'm a full-stack developer who bridges the gap between powerful 
           backend systems and polished frontend experiences — building
           products that are fast, scalable, and built to last.
           <br />
